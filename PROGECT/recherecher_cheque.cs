@@ -20,9 +20,6 @@ namespace PROGECT
        
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            cheque m = new cheque();
-            m.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -77,6 +74,14 @@ namespace PROGECT
             }
             dr.Close();
             Class1.fermer();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            cheque m = new cheque();
+            m.Show();
         }
     }
 }

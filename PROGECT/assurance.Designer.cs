@@ -29,6 +29,7 @@ namespace PROGECT
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(assurance));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -38,12 +39,14 @@ namespace PROGECT
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox_datedebut = new System.Windows.Forms.TextBox();
             this.textBox_datefin = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -99,7 +102,7 @@ namespace PROGECT
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(563, 21);
+            this.button1.Location = new System.Drawing.Point(581, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 37);
             this.button1.TabIndex = 10;
@@ -111,7 +114,7 @@ namespace PROGECT
             // 
             this.button2.BackColor = System.Drawing.Color.Navy;
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(664, 21);
+            this.button2.Location = new System.Drawing.Point(685, 21);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 37);
             this.button2.TabIndex = 11;
@@ -123,7 +126,7 @@ namespace PROGECT
             // 
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(758, 21);
+            this.button3.Location = new System.Drawing.Point(779, 21);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 37);
             this.button3.TabIndex = 12;
@@ -135,44 +138,20 @@ namespace PROGECT
             // 
             this.button4.BackColor = System.Drawing.Color.Navy;
             this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(886, 21);
+            this.button4.Location = new System.Drawing.Point(907, 21);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(144, 37);
+            this.button4.Size = new System.Drawing.Size(100, 37);
             this.button4.TabIndex = 13;
             this.button4.Text = "Afficher";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(3, 1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(63, 40);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "<";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label6.Location = new System.Drawing.Point(94, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 19);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "ASSURANCE";
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Navy;
             this.button6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(1036, 21);
+            this.button6.Location = new System.Drawing.Point(1013, 21);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(95, 37);
             this.button6.TabIndex = 16;
@@ -204,18 +183,50 @@ namespace PROGECT
             this.comboBox1.Size = new System.Drawing.Size(200, 27);
             this.comboBox1.TabIndex = 19;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(12, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 20);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "<";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(145, 162);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 18);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Assurance";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(136, 86);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(103, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            // 
             // assurance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1152, 531);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox_datefin);
             this.Controls.Add(this.textBox_datedebut);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -229,6 +240,7 @@ namespace PROGECT
             this.Name = "assurance";
             this.Text = "assurance";
             this.Load += new System.EventHandler(this.assurance_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,11 +256,12 @@ namespace PROGECT
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox_datedebut;
         private System.Windows.Forms.TextBox textBox_datefin;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

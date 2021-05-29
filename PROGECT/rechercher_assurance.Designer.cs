@@ -42,10 +42,10 @@ namespace PROGECT
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox_date1 = new System.Windows.Forms.TextBox();
             this.textBox_date2 = new System.Windows.Forms.TextBox();
             this.rechercher = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -157,19 +157,6 @@ namespace PROGECT
             this.label2.TabIndex = 17;
             this.label2.Text = "Date_fin";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Navy;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(-1, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 38);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "<";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // textBox_date1
             // 
             this.textBox_date1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -199,16 +186,28 @@ namespace PROGECT
             this.rechercher.UseVisualStyleBackColor = false;
             this.rechercher.Click += new System.EventHandler(this.rechercher_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(12, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 20);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "<";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // rechercher_assurance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1219, 520);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.rechercher);
             this.Controls.Add(this.textBox_date2);
             this.Controls.Add(this.textBox_date1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -233,7 +232,6 @@ namespace PROGECT
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox_date1;
         private System.Windows.Forms.TextBox textBox_date2;
         private System.Windows.Forms.Button rechercher;
@@ -244,5 +242,6 @@ namespace PROGECT
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.Label label7;
     }
 }

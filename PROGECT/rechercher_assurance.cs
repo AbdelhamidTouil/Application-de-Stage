@@ -19,9 +19,7 @@ namespace PROGECT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-           assurance m = new assurance();
-            m.Show();
+           
         }
 
         private void rechercher_Click(object sender, EventArgs e)
@@ -73,6 +71,13 @@ namespace PROGECT
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            assurance m = new assurance();
+            m.Show();
         }
     }
 }

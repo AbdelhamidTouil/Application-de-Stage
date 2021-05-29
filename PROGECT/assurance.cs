@@ -78,5 +78,12 @@ namespace PROGECT
             rechercher_assurance m = new rechercher_assurance();
             m.Show();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu m = new menu();
+            m.Show();
+        }
     }
 }

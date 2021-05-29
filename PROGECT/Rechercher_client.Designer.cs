@@ -42,11 +42,11 @@ namespace PROGECT
             this.check_nom = new System.Windows.Forms.CheckBox();
             this.check_tel = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.check_prenom = new System.Windows.Forms.CheckBox();
             this.text_prenom = new System.Windows.Forms.TextBox();
             this.check_credit = new System.Windows.Forms.CheckBox();
             this.text_credit = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,26 +156,13 @@ namespace PROGECT
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(996, 12);
+            this.button1.Location = new System.Drawing.Point(1001, 9);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 31);
+            this.button1.Size = new System.Drawing.Size(123, 33);
             this.button1.TabIndex = 10;
-            this.button1.Text = "FILTRER";
+            this.button1.Text = "Rechercher";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(38, 33);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "<";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // check_prenom
             // 
@@ -217,17 +204,29 @@ namespace PROGECT
             this.text_credit.Size = new System.Drawing.Size(170, 26);
             this.text_credit.TabIndex = 16;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(12, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 20);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "<";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // Rechercher_client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1136, 521);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.text_credit);
             this.Controls.Add(this.check_credit);
             this.Controls.Add(this.text_prenom);
             this.Controls.Add(this.check_prenom);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.check_tel);
             this.Controls.Add(this.check_nom);
@@ -236,7 +235,7 @@ namespace PROGECT
             this.Controls.Add(this.text_nom);
             this.Controls.Add(this.text_cin);
             this.Controls.Add(this.dataGridView1);
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Rechercher_client";
             this.Text = "Rechercher";
             this.Load += new System.EventHandler(this.Rechercher_Load);
@@ -256,7 +255,6 @@ namespace PROGECT
         private System.Windows.Forms.CheckBox check_nom;
         private System.Windows.Forms.CheckBox check_tel;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox check_prenom;
         private System.Windows.Forms.TextBox text_prenom;
         private System.Windows.Forms.CheckBox check_credit;
@@ -266,5 +264,6 @@ namespace PROGECT
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Label label7;
     }
 }

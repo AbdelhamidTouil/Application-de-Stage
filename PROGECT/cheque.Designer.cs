@@ -29,6 +29,7 @@ namespace PROGECT
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cheque));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,10 +41,12 @@ namespace PROGECT
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.text_date = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -106,7 +109,7 @@ namespace PROGECT
             // 
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(572, 11);
+            this.button1.Location = new System.Drawing.Point(600, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 35);
             this.button1.TabIndex = 10;
@@ -118,7 +121,7 @@ namespace PROGECT
             // 
             this.button2.BackColor = System.Drawing.Color.Navy;
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(653, 11);
+            this.button2.Location = new System.Drawing.Point(690, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 35);
             this.button2.TabIndex = 11;
@@ -130,7 +133,7 @@ namespace PROGECT
             // 
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(748, 11);
+            this.button3.Location = new System.Drawing.Point(796, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 35);
             this.button3.TabIndex = 12;
@@ -142,7 +145,7 @@ namespace PROGECT
             // 
             this.button4.BackColor = System.Drawing.Color.Navy;
             this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1045, 11);
+            this.button4.Location = new System.Drawing.Point(1036, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 35);
             this.button4.TabIndex = 13;
@@ -153,37 +156,13 @@ namespace PROGECT
             // 
             this.button5.BackColor = System.Drawing.Color.Navy;
             this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(879, 11);
+            this.button5.Location = new System.Drawing.Point(920, 11);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(139, 35);
+            this.button5.Size = new System.Drawing.Size(98, 35);
             this.button5.TabIndex = 15;
             this.button5.Text = "Afficher";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(3, 0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(46, 34);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "<";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(129, 27);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 19);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Gestion de Cheque";
             // 
             // text_date
             // 
@@ -202,16 +181,48 @@ namespace PROGECT
             this.comboBox1.Size = new System.Drawing.Size(200, 27);
             this.comboBox1.TabIndex = 19;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(12, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 20);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "<";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(134, 154);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 18);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Cheque";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(117, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(103, 79);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // cheque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1151, 512);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.text_date);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -227,6 +238,7 @@ namespace PROGECT
             this.Name = "cheque";
             this.Text = "cheque";
             this.Load += new System.EventHandler(this.cheque_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,9 +256,10 @@ namespace PROGECT
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox text_date;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

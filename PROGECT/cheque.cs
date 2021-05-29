@@ -43,9 +43,6 @@ namespace PROGECT
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            menu m = new menu();
-            m.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,6 +80,14 @@ namespace PROGECT
             cmd.ExecuteNonQuery();
             MessageBox.Show("suprimer avec succes");
             Class1.fermer();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            menu m = new menu();
+            m.Show();
         }
     }
 }

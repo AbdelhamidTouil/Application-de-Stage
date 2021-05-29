@@ -97,6 +97,11 @@ namespace PROGECT
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
             this.Hide();
             client m = new client();
             m.Show();
