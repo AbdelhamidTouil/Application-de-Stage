@@ -1,0 +1,95 @@
+C:\Users\acer\source\repos\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+C:\Users\acer\source\repos\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+C:\Users\acer\source\repos\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.Form1.resources
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.Form2.resources
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
+C:\Users\acer\source\repos\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_client.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_client.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_product.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_salle.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_user.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Login.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.MENU.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Product_management.resources
+C:\Users\acer\Desktop\Nouveau dossier\PROGECT\PROGECT\obj\Debug\PROGECT.Client_management.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_client.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_product.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_salle.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Add_a_new_user.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Client_management.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Login.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.MENU.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Product_management.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+C:\Users\acer\Desktop\progect ado.net\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.Login.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.client.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.menu.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.assurance.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.cheque.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.rechercher_assurance.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.Rechercher_client.resources
+C:\Users\Abdelhamid\Desktop\MyProject-master\PROGECT\PROGECT\obj\Debug\PROGECT.recherecher_cheque.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.assurance.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.cheque.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.client.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.menu.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.rechercher_assurance.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.Rechercher_client.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.recherecher_cheque.resources
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+C:\Users\Abdelhamid\Desktop\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
+D:\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.exe.config
+D:\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.exe
+D:\My Projects N\PROGECT\PROGECT\bin\Debug\PROGECT.pdb
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csprojAssemblyReference.cache
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.assurance.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.cheque.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.client.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.menu.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.Properties.Resources.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.rechercher_assurance.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.Rechercher_client.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.recherecher_cheque.resources
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.GenerateResource.cache
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.csproj.CoreCompileInputs.cache
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.exe
+D:\My Projects N\PROGECT\PROGECT\obj\Debug\PROGECT.pdb
